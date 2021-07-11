@@ -1,6 +1,5 @@
 import * as React from "react"
 import { graphql, Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 import styled from "styled-components"
 
 import Layout from "../components/layout"
@@ -16,7 +15,6 @@ const BlogTitle = styled.h3`
 `
 
 const IndexPage = ({ data }) => {
-    console.log(data)
     return (
         <Layout>
             <Seo title="Home" />
